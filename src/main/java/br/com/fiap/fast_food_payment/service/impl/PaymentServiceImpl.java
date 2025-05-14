@@ -5,8 +5,6 @@ import br.com.fiap.fast_food_payment.repository.IPaymentRepository;
 import br.com.fiap.fast_food_payment.service.IPaymentService;
 import org.springframework.stereotype.Service;
 
-import java.util.Map;
-
 @Service
 public class PaymentServiceImpl implements IPaymentService {
 
@@ -29,6 +27,5 @@ public class PaymentServiceImpl implements IPaymentService {
         payment.setOrderId(orderId);
 
         paymentRepository.save(payment);
-        System.out.println(paymentRepository.findByOrderId(orderId));
     }
 }
