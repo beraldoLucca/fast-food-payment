@@ -9,6 +9,7 @@ O projeto gerencia o fluxo de pagamento de uma lanchonete.
 - [Uso](#uso)
 - [Endpoints de Testes](#endpoints-de-testes)
 - [Autores e Reconhecimentos](#autores-e-reconhecimentos)
+- [Evidência da cobertura](#evidência-da-cobertura)
 
 ## Descrição
 
@@ -55,6 +56,10 @@ Aqui estão os endpoints da API que você pode usar para testar as funcionalidad
     - #### Método: `GET`
     - #### Resposta:
             True or False
+
+## Evidência da cobertura
+![Cobertura](images/fast-food-payment-sonar.png)
+
 
 ## Autores e Reconhecimentos
 
